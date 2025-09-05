@@ -267,7 +267,7 @@ export default function Home() {
           <div>
             <strong>Rechtliches</strong>
             <p>
-              <a href="#">Impressum</a> • <a href="#">Datenschutz</a>
+              <a href="agb.html">Impressum</a> • <a href="privacy.html">Datenschutz</a>
             </p>
           </div>
         </div>
