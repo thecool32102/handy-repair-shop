@@ -234,6 +234,8 @@ export default function Home() {
                   <textarea
                     id="message"
                     name="message"
+                    required
+                    placeholder="Beschreibe kurz das Problem und wie es geschehen ist."
                     rows={4}
                     className="w-full p-3 rounded-xl bg-[#0a1220] border border-white/20"
                   />
