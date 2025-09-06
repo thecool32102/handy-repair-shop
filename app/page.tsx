@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
+import css from "styled-jsx/css";
 
 export default function Home() {
   const [status, setStatus] = useState<string>("");
@@ -242,7 +243,8 @@ export default function Home() {
                 </div>
                 <label className="text-sm flex gap-2">
                   <input type="checkbox" required /> Ich akzeptiere die
-                  Datenschutzhinweise
+                  <span className="highlights"><a href="/privacy">Datenschutzhinweise</a> </span> 
+                  und <span className="highlights">AGB's</span>
                 </label>
                 <button
                   type="submit"
@@ -267,7 +269,7 @@ export default function Home() {
           <div>
             <strong>Rechtliches</strong>
             <p>
-              <a href="/agb">AGB</a> • <a href="/privacy">Datenschutz</a>
+              <a href="/agb">AGB</a> • <a href="/privacy">Datenschutz</a> • <a href="/impressum">Impressum</a>
             </p>
           </div>
         </div>
@@ -283,4 +285,5 @@ export default function Home() {
       </a>
     </div>
   );
+
 }
