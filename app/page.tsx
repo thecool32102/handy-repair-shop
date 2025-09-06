@@ -244,7 +244,7 @@ export default function Home() {
                 <label className="text-sm flex gap-2">
                   <input type="checkbox" required /> Ich akzeptiere die
                   <span className="highlights"><a href="/privacy">Datenschutzhinweise</a> </span> 
-                  und <span className="highlights">AGB's</span>
+                  und <span className="highlights">AGB&apos;s</span>
                 </label>
                 <button
                   type="submit"
