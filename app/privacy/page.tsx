@@ -5,7 +5,7 @@ import React from "react";
 export default function PrivacyPage() {
   return (
     <div className="bg-[#0b1320] text-[#e5e7eb] min-h-screen font-sans">
-    <a href="/">
+    <link />
       <header className="sticky top-0 z-50 bg-[#0b1320]/70 backdrop-blur border-b border-white/10">
         <div className="container mx-auto flex justify-between items-center py-3 px-4">
           <div className="flex items-center gap-2 font-extrabold text-lg">
@@ -14,7 +14,7 @@ export default function PrivacyPage() {
           </div>
         </div>
       </header>
-    </a>
+    
 
       <main className="container mx-auto py-16 px-4 max-w-3xl">
         <h1 className="text-3xl font-bold mb-6">Datenschutzerklärung</h1>
